@@ -200,7 +200,7 @@ S.traverse(o=>{if(o.isMesh&&o!==gp){o.castShadow=!o.userData.net;o.receiveShadow
 const info=$('#info'),chips=$('#chips'),dock=$('#dock');
 const show=(n,d,t)=>info.innerHTML=`<small>${t}</small><h2>${n}</h2><p>${d}</p>`;
 I.forEach((it,i)=>{const b=document.createElement('button');b.innerHTML=`<i>${it.fl}</i>${it.name}`;b.onclick=()=>focus(i);chips.appendChild(b)});
-show('อาคารสามยอด','ตึกแถวสองชั้น สามคูหา ผนังสีเหลือง บานไม้สีเขียวแบบพระนคร ลากเพื่อหมุน บีบเพื่อซูม แตะบานประตูเพื่อเปิด','แบบจำลอง');
+show('อนาคตจะเป็นของสุดที่รัก','ตึกแถวสองชั้น สามคูหา ผนังสีเหลือง บานไม้สีเขียว ลากเพื่อหมุน บีบเพื่อซูม แตะบานประตูเพื่อเปิด');
 
 let mode='all',fly=null;
 const V=(x,y,z)=>new T.Vector3(x,y,z),k=()=>cam.aspect<1?1.6:1;
